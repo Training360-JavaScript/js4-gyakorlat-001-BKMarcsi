@@ -1,7 +1,7 @@
 const converterPromise = (initArray = []) => {
 
-    const isItOK;
-    const myArray;
+    let isItOK;
+    let myArray;
 
     const myPromise = new Promise((resolve, reject) => {
 
